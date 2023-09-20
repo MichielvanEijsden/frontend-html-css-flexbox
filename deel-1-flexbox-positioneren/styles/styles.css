@@ -44,3 +44,12 @@
     justify-content: flex-end;
     align-items: flex-end;
 }
+
+/* opderacht 4 */
+
+.opdr-4 ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px 10px;
+}
