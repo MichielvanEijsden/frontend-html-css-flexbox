@@ -19,30 +19,21 @@
 }
 /* opdracht 3 */
 
-.opdr-3 ul {
-    height: 150px;
+.opdracht-3 > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 100%;
 }
 
 .opdr-3-tl{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    align-self: flex-start;
 }
 .opdr-3-center{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    align-self: center;
 }
 .opdr-3-br{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+    align-self: flex-end;
 }
 
 /* opderacht 4 */
@@ -53,3 +44,6 @@
     flex-wrap: wrap;
     gap: 10px 10px;
 }
+
+/* opdracht 5 */
+
