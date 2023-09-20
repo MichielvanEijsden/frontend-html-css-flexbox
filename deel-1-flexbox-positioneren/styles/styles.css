@@ -1,7 +1,12 @@
 /*Schrijf hier jouw CSS*/
 
-ul{
+/* opdracht 1 */
+
+.opdr-1 ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+
