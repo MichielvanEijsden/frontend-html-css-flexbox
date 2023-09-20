@@ -46,4 +46,27 @@
 }
 
 /* opdracht 5 */
+.opdracht-5{
+    display: flex;
+}
+.opdr-5{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+.opdr-5 ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.col-1{
+    align-items: flex-start;
+}
+.col-2{
+    align-items: center;
+}
+.col-3{
+    align-items: flex-end;
+}
