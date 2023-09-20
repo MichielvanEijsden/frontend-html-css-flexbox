@@ -17,3 +17,30 @@
 .opdr-2 li{
     flex-basis: 600px;
 }
+/* opdracht 3 */
+
+.opdr-3 ul {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdr-3-tl{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.opdr-3-center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.opdr-3-br{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
