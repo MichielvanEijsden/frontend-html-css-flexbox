@@ -1,1 +1,44 @@
-/*Schrijf hier jouw CSS*/
+body{
+    border: 2px dotted red;
+    display: flex;
+    flex-direction: row;
+}
+.col-1{
+    border: 2px dotted orange;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.col-2{
+    border: 2px dotted green;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+header{
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+article{
+    flex-basis: 70vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
