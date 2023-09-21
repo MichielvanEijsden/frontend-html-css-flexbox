@@ -1,8 +1,19 @@
 body{
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 main{
     display: flex;
     flex-direction: row;
+
+}
+nav{
+    order: 1;
+}
+article{
+    order: 2;
+}
+aside{
+    order: 3;
 }
