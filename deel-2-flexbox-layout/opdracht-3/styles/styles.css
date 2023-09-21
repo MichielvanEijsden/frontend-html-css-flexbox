@@ -1,1 +1,56 @@
-/*Schrijf hier jouw CSS*/
+body{
+    border: 2px dotted red;
+    display: flex;
+    flex-direction: row;
+}
+.col-1{
+    border: 2px dotted orange;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.col-2{
+    border: 2px dotted green;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100vw;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+header{
+    border: 2px dotted black;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+main{
+    border: 2px dotted gold;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 100vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+article{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 70vh;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+aside{
+
+    border: 2px dotted purple;
+    justify-items: flex-end;
+    flex-basis: 30vh;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
