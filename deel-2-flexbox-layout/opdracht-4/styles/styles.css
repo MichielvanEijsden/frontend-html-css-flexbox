@@ -28,14 +28,14 @@ body{
 nav {
      flex-grow: 0;
      flex-shrink: 0;
-    flex-basis: 200px;
+    flex-basis: 20vh;
  }
 header {
     display: flex;
     flex-direction: row;
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 150px;
+    flex-basis: 15vh;
 }
 article{
     flex-basis: 100vh;
@@ -45,10 +45,10 @@ article{
 aside{
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 200px;
+    flex-basis: 20vh;
 }
 footer{
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 150px;
+    flex-basis: 15vh;
 }
