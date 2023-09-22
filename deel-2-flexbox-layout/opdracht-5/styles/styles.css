@@ -24,9 +24,9 @@ nav{
 article{
     border: 2px solid blue;
     order: 2;
-    flex-basis: 147vh; /* uuuuuuu??*/
-    flex-grow: 0;
-    flex-shrink: 0;
+    /*flex-basis: 147vh; !* uuuuuuu??*!*/
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 aside{
     border: 2px solid greenyellow;
