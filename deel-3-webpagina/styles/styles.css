@@ -23,7 +23,25 @@ header{
     background-color: midnightblue;
     color: white;
 }
+.header{
+    border: red 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: flex-start;
 
+}
+.nav-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 500px;
+
+}
+ul{
+    list-style: none;
+}
 .head{
     display: flex;
     flex-direction: column;
