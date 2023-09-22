@@ -9,7 +9,7 @@ main{
     flex-basis: 80vh;
 }
 header{
-    flex-basis: 150px;
+    flex-basis: 15vh;
     flex-grow: 0;
     flex-shrink: 0;
 }
@@ -30,7 +30,7 @@ aside{
     flex-shrink: 0;
 }
 footer{
-    flex-basis: 150px;
-    /*flex-grow: 0;*/
-    /*flex-shrink: 0;*/
+    flex-basis: 15vh;
+    flex-grow: 0;
+    flex-shrink: 0;
 }
