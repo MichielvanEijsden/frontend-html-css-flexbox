@@ -1,10 +1,8 @@
 body{
-    border: 2px dotted red;
     display: flex;
     flex-direction: row;
 }
 .col-1{
-    border: 2px dotted orange;
     display: flex;
     flex-direction: column;
     flex-basis: 200px;
@@ -12,7 +10,6 @@ body{
     flex-shrink: 0;
 }
 .col-2{
-    border: 2px dotted green;
     display: flex;
     flex-direction: column;
     flex-basis: 100vw;
@@ -20,13 +17,11 @@ body{
     flex-shrink: 1;
 }
 header{
-    border: 2px dotted black;
-    flex-basis: 150px;
+    flex-basis: 15vh;
     flex-grow: 0;
     flex-shrink: 0;
 }
 main{
-    border: 2px dotted gold;
     display: flex;
     flex-direction: row;
     flex-basis: 100vh;
@@ -42,15 +37,13 @@ article{
     flex-shrink: 1;
 }
 aside{
-
-    border: 2px dotted purple;
     justify-items: flex-end;
     flex-basis: 30vh;
 }
 footer{
     display: flex;
     flex-direction: row;
-    flex-basis: 150px;
+    flex-basis: 15vh;
     flex-grow: 0;
     flex-shrink: 0;
 }
