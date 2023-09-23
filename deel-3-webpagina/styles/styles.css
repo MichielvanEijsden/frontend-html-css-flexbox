@@ -23,43 +23,60 @@ body{
 header{
     display: flex;
     flex-direction: row;
-    flex-basis: 10vh;
-    height: 10vh;
+    flex-basis: 40px;
+    height: 400px;
     background-color: midnightblue;
     color: white;
     padding: 40px;
-
+    align-items: baseline;
 }
 
 .company-name{
-    border: purple 2px solid;
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
-    text-transform: uppercase;
-    font-weight: bold;
+    align-self: flex-start;
+    border: green 2px solid;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: flex-start;*/
+    flex-basis: 100vw;
+
 
 }
-.nav-bar{
-    border: red 2px solid;
-    /*display: flex;*/
-    /*flex-direction: row;*/
-    /*justify-content: flex-end;*/
+.company-name > p{
+    font-weight: bold;
+    /*font-size:30px;*/
 }
-.nav-button{border: greenyellow 2px solid;
+
+.nav-bar{
+    justify-self: flex-end;
+    border: red 2px dotted;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-basis: 5000px;
+}
+#nav-bar{
+    flex-basis: 500px;
+}
+.nav-button{
+    border: greenyellow 2px solid;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-basis: 300px;
-
+    flex-basis:500px;
+    /*font-size: 30px;*/
 }
 ul{
     list-style: none;
 }
 /*/////////////////////////////////////////////*/
-/*       Page Body*/
+/*       Main*/
 /*/////////////////////////////////////////////*/
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 40px 40px;
+}
 .page-title{
     display: flex;
     flex-direction: column;
@@ -88,7 +105,9 @@ section article{
 }
 
 @media screen and (min-width: 1200px) {
-
+    header{
+        font-size: 1rem;
+    }
     body {
         font-size: 1rem;
     }
